@@ -1,0 +1,15 @@
+name: ExploreMapCreator
+author: thezit445
+version: 1.0.1
+prefix: ExploreMapCreator
+depend: [NBTReflectionAPI]
+main: ru.thezit445.emcreator.EMCreatorPlugin
+api-version: 1.13
+commands:
+  emcreate:
+    description: 'Admin command'
+    usage: '/emcreate <help|types>'
+permissions:
+  emcreator.admin:
+    default: op;
+    description: 'Admin permission'
